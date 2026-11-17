@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.h": "c",
+    },
+
+    "cmake.configureOnOpen": false,
+
+    "cortex-debug.variableUseNaturalFormat": false,
+    "debug.hideSlowPreLaunchWarning": true,
+    "debug.showInStatusBar": "never",
+    "cmsis-csolution.autoDebugLaunch": false,
+    "clangd.arguments": [
+        "--compile-commands-dir=/Users/karolsaja/Developer/Labs/ADI training 2026/project_new_sections/out/imagepipeline/AppKit-E8-HE/debug"
+    ],
+}
