@@ -436,7 +436,7 @@
 
 // <e> JPEG (JPEG) [Driver_JPEG]
 // <i> Configuration settings for Driver_JPEG in component ::Drivers:JPEG
-#define RTE_JPEG 0
+#define RTE_JPEG 1
 #if RTE_JPEG
 
 // <o> JPEG IRQ priority <0-255>
