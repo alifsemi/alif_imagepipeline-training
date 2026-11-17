@@ -20,7 +20,7 @@
 
 // <e> CPI (Camera) [Driver_CPI]
 // <i> Configuration settings for Driver_CPI in component ::Drivers:CPI
-#define RTE_CPI 0
+#define RTE_CPI 1
 #if RTE_CPI
 
 // <o> CPI interrupt priority <0-255>
@@ -40,7 +40,7 @@
 //     <1=> enable
 // <i> Defines CPI AXI port
 // <i> Default: AXI port enable
-#define RTE_CPI_AXI_PORT                                      0
+#define RTE_CPI_AXI_PORT                                      1
 
 // <o> Select CPI ISP port
 //     <0=> disable
@@ -476,7 +476,7 @@
 
 // <e> MIPI_CSI2 (mipi csi2) [Driver_MIPI_CSI2]
 // <i> Configuration settings for Driver_MIPI_CSI2 in component ::Drivers:MIPI_CSI2
-#define RTE_MIPI_CSI2 0
+#define RTE_MIPI_CSI2 1
 #if RTE_MIPI_CSI2
 
 // <o> Select CSI2 DPHY backend
@@ -587,7 +587,7 @@
 //     <55=> USER_DEFINED_8
 // <i> defines select CSI2 Data type to be overwrite
 // <i> default: RAW10
-#define RTE_MIPI_CSI2_EN_DT                 43
+#define RTE_MIPI_CSI2_EN_DT                 42
 
 // <o> datatype to overwrite with programmed datatype
 // <i> define if want to use programmed datatype ignoring datatype of the header
@@ -1197,7 +1197,7 @@
 // <o> select OV5675 override CPI color mode
 // <i> defines select OV5675 override CPI color mode.
 // <i> default: 1
-#define RTE_OV5675_CAMERA_SENSOR_OVERRIDE_CPI_COLOR_MODE 0
+#define RTE_OV5675_CAMERA_SENSOR_OVERRIDE_CPI_COLOR_MODE 1
 
 // <o> select OV5675 CPI color mode
 // <i> defines select OV5675 CPI color mode.
@@ -1210,7 +1210,7 @@
 //     <2=>   1280x720_RAW10
 //     <3=>   640x480_RAW10
 // <i> Default: 0
-#define RTE_OV5675_CAMERA_SENSOR_IMAGE_CONFIG            3
+#define RTE_OV5675_CAMERA_SENSOR_IMAGE_CONFIG            0
 
 // <i> OV5675 frame height (derived from IMAGE_CONFIG)
 // <i> defines OV5675 frame height.

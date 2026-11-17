@@ -48,3 +48,8 @@ project:
     - component: AlifSemiconductor::Device:SOC Peripherals:MHU
     - component: AlifSemiconductor::Services:Secure Enclave:core&Source
     - component: AlifSemiconductor::Services:Secure Enclave:Initialization Helper&Source
+    - component: BSP:External peripherals:CAMERA Sensor OV5675
+    - component: CMSIS Driver:I2C
+    - component: Device:SOC Peripherals:CPI
+    - component: Device:SOC Peripherals:MIPI CSI2
+    - component: Device:SOC Peripherals:MIPI DSI CSI2 DPHY

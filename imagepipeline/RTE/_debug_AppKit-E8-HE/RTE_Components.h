@@ -15,10 +15,20 @@
  */
 #define CMSIS_device_header "alif.h"
 
+/* AlifSemiconductor::BSP:External peripherals:CAMERA Sensor OV5675@2.2.0 */
+#define RTE_Drivers_CAMERA_SENSOR_OV5675           /* Driver CAMERA Sensor */
+/* AlifSemiconductor::CMSIS Driver:I2C@2.2.0 */
+#define RTE_Drivers_I2C              /* Driver I2C */
 /* AlifSemiconductor::CMSIS Driver:USART@2.2.0 */
 #define RTE_Drivers_USART               /* Driver UART  */
+/* AlifSemiconductor::Device:SOC Peripherals:CPI@2.2.0 */
+#define RTE_Drivers_CPI              /* Driver CAMERA Controller */
 /* AlifSemiconductor::Device:SOC Peripherals:GPIO@2.2.0 */
 #define RTE_Drivers_IO              /* Driver GPIO */
+/* AlifSemiconductor::Device:SOC Peripherals:MIPI CSI2@2.2.0 */
+#define RTE_Drivers_MIPI_CSI2              /* Driver MIPI CSI2 */
+/* AlifSemiconductor::Device:SOC Peripherals:MIPI DSI CSI2 DPHY@2.2.0 */
+#define RTE_Drivers_MIPI_DSI_CSI2_DPHY   /* Driver DPHY */
 /* AlifSemiconductor::Device:SOC Peripherals:PINCONF@2.2.0 */
 #define RTE_Drivers_LL_PINCONF              /* Driver PinPAD and PinMux */
 
