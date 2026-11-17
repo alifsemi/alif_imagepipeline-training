@@ -40,14 +40,14 @@
 //     <1=> enable
 // <i> Defines CPI AXI port
 // <i> Default: AXI port enable
-#define RTE_CPI_AXI_PORT                                      1
+#define RTE_CPI_AXI_PORT                                      0
 
 // <o> Select CPI ISP port
 //     <0=> disable
 //     <1=> enable
 // <i> Defines CPI ISP port
 // <i> Default: ISP port disable
-#define RTE_CPI_ISP_PORT                                      0
+#define RTE_CPI_ISP_PORT                                      1
 
 // <o> CPI Row roundup
 //     <0=> disable
@@ -366,7 +366,7 @@
 
 // <e> ISP (ISP) [Driver_ISP]
 // <i> Configuration settings for Driver_ISP in component ::Drivers:ISP
-#define RTE_ISP 0
+#define RTE_ISP 1
 #if RTE_ISP
 
 // <o> ISP IRQ priority <0-255>
@@ -421,7 +421,7 @@
 //    <41=> RAW422SP (RAW422 semi-planar)
 // <i> Defines ISP output pixel format for memory dump
 // <i> Default: RGB888
-#define RTE_ISP_OUTPUT_FORMAT 32
+#define RTE_ISP_OUTPUT_FORMAT 23
 
 // <o> ISP Scaler Output Width
 // <i> Width in pixels of the ISP scaler output (after scaling from sensor dimensions).
@@ -587,7 +587,7 @@
 //     <55=> USER_DEFINED_8
 // <i> defines select CSI2 Data type to be overwrite
 // <i> default: RAW10
-#define RTE_MIPI_CSI2_EN_DT                 42
+#define RTE_MIPI_CSI2_EN_DT                 43
 
 // <o> datatype to overwrite with programmed datatype
 // <i> define if want to use programmed datatype ignoring datatype of the header
@@ -1197,7 +1197,7 @@
 // <o> select OV5675 override CPI color mode
 // <i> defines select OV5675 override CPI color mode.
 // <i> default: 1
-#define RTE_OV5675_CAMERA_SENSOR_OVERRIDE_CPI_COLOR_MODE 1
+#define RTE_OV5675_CAMERA_SENSOR_OVERRIDE_CPI_COLOR_MODE 0
 
 // <o> select OV5675 CPI color mode
 // <i> defines select OV5675 CPI color mode.
